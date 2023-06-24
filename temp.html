@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="convert.css" />
+    <link
+      rel="stylesheet"
+      text="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Diplomata&family=Lobster&family=Mochiy+Pop+One&family=Oleo+Script+Swash+Caps:wght@400;700&family=Roboto:wght@500&family=Train+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Temperature Converter</h1>
+    </header>
+    <div class="box">
+        <div class="container">
+            <div class="calhead">
+                <div class="calhead1">
+                </div>
+                <div class="calhead2">
+                    <i class="fa-solid fa-wifi"></i>
+                    <span>4G</span>
+                    <i class="fa-solid fa-signal"></i>
+                    <i class="fa-solid fa-battery-full"></i>
+                </div>
+            </div>
+        </div>
+        <h3 style="text-align: center;">Temperature Converter</h3>
+          <div class="content content-1">
+            <div class="label-input">
+              <label for="amount">Amount</label>
+              <input
+                type="number"
+                placeholder="0"
+                id="Temp"
+                class="amountt"
+                onkeyup="getTempunit()"
+              />
+            </div>
+            <div class="label-input">
+              <label for="operand1">From :</label>
+              <select id="temp1" class="amountt">
+                <option value="celsius">Celsius</option>
+                <option value="fehrenite">Fehrenite</option>
+                <option value="kelvin">Kelvin</option>
+              </select>
+            </div>
+            <div class="label-input">
+              <label for="operand2">To :</label>
+              <select name="" id="temp2" class="amountt">
+                <option value="celsius">Celsius</option>
+                <option value="fehrenite">Fehrenite</option>
+                <option value="kelvin">Kelvin</option>
+              </select>
+            </div>
+            <br>
+            <label for="" class="label">Result :</label>
+            <input type="text" id="result1" class="amountt" placeholder="0" />
+          </div>
+          <hr class="hr">
+        </div>
+      </div>
+    </div>
+    
+</div>
+<footer style="text-align: center;margin-top: 50px;">
+    <h4 style="text-align: center;"><span style="color:orangered">Made</span> <span style="color:white">In</span> <span style="color:rgb(1, 117, 1)">India</span> <i class="fa-solid fa-heart" style="color:red"></i> </h4>
+</footer>
+    <script src="temp.js"></script>
+  </body>
+</html>

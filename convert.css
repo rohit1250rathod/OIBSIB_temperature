@@ -1,0 +1,77 @@
+header h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(176, 176, 176);
+}
+.box{
+    margin: 20px 41%;
+    background-color: white;
+    /* padding: 20px; */
+    border: 1px solid rgb(176, 176, 176);
+    box-shadow: 4px 4px 4px 4px black;
+    min-height: 440px;
+    border-radius: 20px;
+    width: 18%;
+}
+.container{
+    height: 18px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /* margin: 1px 0; */
+    background-color: rgb(236, 236, 236);
+}
+.content{
+    padding: 20px;
+}
+.label-input{
+    display: flex;
+    flex-direction: column;
+}
+.label-input label ,.label{
+    margin: 10px 0;
+    color: rgb(122, 122, 122);
+}
+.label-input input ,.amountt{
+    border: none;
+    outline: none;
+    height: 35px;
+    font-size: 16px;
+    padding: 0;
+    align-items: baseline;
+    border-bottom-width: 90%;
+    border-bottom: 1px solid rgb(140, 140, 140);
+}
+.label-input select,.label-input select option{
+    outline: none;
+    border: 1px solid rgb(231, 231, 231);
+    align-items: center;
+    color: rgb(74, 74, 74);
+    height: 40px;
+    padding: 0px 10px;
+}
+.hr{
+    width: 20%;
+    height: 3px;
+    background-color: rgb(131, 131, 131);
+    border: none;
+    margin: auto;
+    margin-top: 13px;
+}
+.calhead{
+    padding: 5px 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.calhead1{
+    font-size: 12px;
+}
+.calhead2 i{
+    font-size: 12px;
+}
+.calhead1 span,.calhead2 span{
+    font-size: 12px;
+}
